@@ -24,12 +24,12 @@
     <br>
     <br>
     <a href="Question4.php">
-         <input type="button" value = "Which artwork took the longest time to complete and who made it?">
+         <input type="button" value = "Which artwork took the longest time to complete and when was it made?">
     </a>
     <br>
     <br>
     <a href="Question5.php">
-         <input type="button" value = "What is the oldest and 2nd oldest artwork received each year and in which country was it made or found?">
+         <input type="button" value = "What is the age of the oldest and 2nd oldest artwork received each year and in which country was it made or found?">
     </a>
     <br>
     <br>

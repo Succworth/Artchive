@@ -6,8 +6,17 @@
   </head>
   <center>
   <body>
-    <h1>What is the oldest and 2nd oldest artwork received each year and in which country was it made or found?</h1>
+    <h1>What is the age of the oldest and 2nd oldest artwork received each year and in which country was it made or found?</h1>
     <hr>
+    <a href="Question5Oldest-220314-142224.html">
+      <input type=button value=Oldest>
+    </a>
+    <br>
+    <br>
+    <a href="Question5SecondOldest-220314-142234.html">
+      <input type=button value="2nd Oldest">
+    </a>
+    <br>
     <br>
     <a href = "HomePage.php">
       <input type = button value = Home>
