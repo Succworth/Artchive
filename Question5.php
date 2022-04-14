@@ -6,14 +6,10 @@
   </head>
   <center>
   <body>
-    <h1>What is the average age of artists of each decade when they created artwork?</h1>
+    <h1>What is the oldest and 2nd oldest artwork received each year and in which country was it made or found?</h1>
     <hr>
-    <?php
-      $image_url='placeholder.png';
-    ?>
-    <img src="<?php echo $image_url;?>">
     <br>
-    <a href = "http://localhost:4000/Artchive/HomePage.php">
+    <a href = "HomePage.php">
       <input type = button value = Home>
     </a>
   </body>

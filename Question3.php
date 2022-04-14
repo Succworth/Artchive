@@ -6,14 +6,16 @@
   </head>
   <center>
   <body>
-    <h1>Which artwork took the longest time to complete and who made it?</h1>
+    <h1>Who would go on to create the most pieces by birth year?</h1>
     <hr>
-    <?php
-      $image_url='placeholder.png';
-    ?>
-    <img src="<?php echo $image_url;?>">
+    <h2>Please select the era you wish to see</h2>
     <br>
-    <a href = "http://localhost:4000/Artchive/HomePage.php">
+    <a href="Question3Part1-220314-004518.html">
+        <input type=button value="Earliest Recorded - Present">
+    </a>
+    <br>
+    <br>
+    <a href = "HomePage.php">
       <input type = button value = Home>
     </a>
   </body>
