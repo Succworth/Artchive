@@ -19,7 +19,7 @@
     <br>
     <br>
     <a href="Question3.php">
-         <input type="button" value = "Who would go on to create the most pieces by birth year">
+         <input type="button" value = "Who would go on to create the most pieces by birth year?">
     </a>
     <br>
     <br>
