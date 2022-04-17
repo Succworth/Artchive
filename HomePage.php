@@ -44,6 +44,8 @@
     <br>
     <br>
     <input type="button" onclick="countTuples()" value = "How many tuples are there in each table?">
+
+    <!-- Grabbing artist tuple count -->
     <?php
     $query = "SELECT count(*) FROM Artists";
     $stid = oci_parse($c, $query);
@@ -55,6 +57,8 @@
     }
     oci_free_statement($stid);
      ?>
+
+     <!-- Grabbing artworks tuple count -->
      <?php
      $query = "SELECT count(*) FROM Artworks";
      $stid = oci_parse($c, $query);
@@ -66,6 +70,8 @@
      }
      oci_free_statement($stid);
       ?>
+
+      <!-- Grabbing make tuple count -->
       <?php
       $query = "SELECT count(*) FROM Make";
       $stid = oci_parse($c, $query);
