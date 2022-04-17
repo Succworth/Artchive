@@ -43,7 +43,7 @@
     </a>
     <br>
     <br>
-    <input type="button" onclick="countArtistsTuples()" value = "How many tuples are there in the table Artists?">
+    <input type="button" onclick="countTuples()" value = "How many tuples are there in each table?">
     <?php
     $query = "SELECT count(*) FROM Artists";
     $stid = oci_parse($c, $query);
@@ -55,10 +55,6 @@
     }
     oci_free_statement($stid);
      ?>
-
-     <br>
-     <br>
-     <input type="button" onclick="countArtworksTuples()" value = "How many tuples are there in the table Artworks?">
      <?php
      $query = "SELECT count(*) FROM Artworks";
      $stid = oci_parse($c, $query);
@@ -70,10 +66,6 @@
      }
      oci_free_statement($stid);
       ?>
-
-      <br>
-      <br>
-      <input type="button" onclick="countMakeTuples()" value = "How many tuples are there in the table Make?">
       <?php
       $query = "SELECT count(*) FROM Make";
       $stid = oci_parse($c, $query);
@@ -87,20 +79,13 @@
        ?>
 
     <script>
-      function countArtistsTuples() {
-        var num = '<?php echo $artist; ?>';
-        alert(num);
-      }
-      function countArtworksTuples() {
-        var num = '<?php echo $artwork; ?>';
-        alert(num);
-      }
-      function countMakeTuples() {
-        var num = '<?php echo $make; ?>';
-        alert(num);
-      }
-      function test() {
-        alert("Here!");
+      function countTuples() {
+        var artist = '<?php echo $artist; ?>';
+        var artwork = '<?php echo $artwork; ?>';
+        var make = '<?php echo $make; ?>';
+        alert("Number of tuples in Artists: " + artist
+              +"\nNumber of tuples in Artworks: " + artwork
+              +"\nNumber of tuples in Make: " + make);
       }
     </script>
 
