@@ -94,25 +94,6 @@
               +"\nNumber of tuples in Make: " + make);
       }
     </script>
-
-    <?php
-    /*
-    $query = "SELECT count(*) FROM Artists";
-    $stid = oci_parse($c, $query);
-    $r = oci_execute($stid);
-    print "<table border='1'>\n";
-    while ($row = oci_fetch_array($stid, OCI_ASSOC+OCI_RETURN_NULLS)) {
-      print "<tr>\n";
-      foreach ($row as $item) {
-          print "    <td>" . ($item !== null ? htmlentities($item, ENT_QUOTES) : "&nbsp;") . "</td>\n";
-          $num = $item;
-      }
-      print "</tr>\n";
-    }
-    print "</table>\n";
-    echo $num;
-    oci_free_statement($stid); */
-     ?>
   </body>
   </center>
 </html>
