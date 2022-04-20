@@ -8,7 +8,7 @@
   <body>
     <h1>How many artists in each country were born in each year?</h1>
     <hr>
-    <h2>Please select the era you wish to see</h2>
+    <h2>Preset Timespans</h2>
     <br>
     <a href="Question2Part1-220313-221155.html">
     <input type = button value = "Earliest Recorded - 1611">
@@ -35,7 +35,7 @@
     </a>
     <hr>
     <a href="Question2Interactive.php">
-      <input type=button value="Interative Graph">
+      <input type=button value="Interactive Graph">
     </a>
     <br>
     <br>

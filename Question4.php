@@ -8,7 +8,7 @@
   <body>
     <h1>Which artwork took the longest time to complete and when was it made?</h1>
     <hr>
-    <h2>Please select the era you wish to see</h2>
+    <h2>Preset Timespans</h2>
     <br>
     <h3>Longest Time Globally</h3>
     <br>
@@ -44,10 +44,6 @@
     <br>
     <a href="Question4CountryPart5-220314-163818.html">
       <input type=button value="1960 - Present">
-    </a>
-    <hr>
-    <a href="Question4Interactive.php">
-      <input type=button value="Interative Graph">
     </a>
     <br>
     <br>

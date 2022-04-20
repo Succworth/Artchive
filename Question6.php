@@ -8,7 +8,7 @@
   <body>
     <h1>What is the average age of artists of each decade when they created artwork?</h1>
     <hr>
-    <h2>Please select the era you wish to see</h2>
+    <h2>Preset Timespans</h2>
     <br>
     <br>
     <h3>Average Age Globally</h3>
@@ -52,7 +52,7 @@
     </a>
     <hr>
     <a href="Question6Interactive.php">
-      <input type=button value="Interative Graph">
+      <input type=button value="Interactive Graph">
     </a>
     <br>
     <br>

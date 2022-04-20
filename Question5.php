@@ -8,6 +8,7 @@
   <body>
     <h1>What is the age of the oldest and 2nd oldest artwork received each year and in which country was it made or found?</h1>
     <hr>
+    <h2>Would you like to see Oldest or 2nd Oldest?</h2>
     <a href="Question5Oldest-220314-142224.html">
       <input type=button value=Oldest>
     </a>
@@ -18,7 +19,12 @@
     </a>
     <hr>
     <a href="Question5Interactive.php">
-      <input type=button value="Interative Graph">
+      <input type=button value="Interactive Graph Oldest">
+    </a>
+    <br>
+    <br>
+    <a href="Question5Interactive2.php">
+      <input type=button value="Interactive Graph 2nd Oldest">
     </a>
     <br>
     <br>
