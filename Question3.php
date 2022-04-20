@@ -13,6 +13,10 @@
     <a href="Question3Part1-220314-004518.html">
         <input type=button value="Earliest Recorded - Present">
     </a>
+    <hr>
+    <a href="Question3Interactive.php">
+      <input type=button value="Interative Graph">
+    </a>
     <br>
     <br>
     <a href = "HomePage.php">

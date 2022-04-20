@@ -1,6 +1,6 @@
 $(document).ready(function(){
 $.ajax({
-    url: "http://localhost/Artchive/Question1Data.php",
+    url: "http://localhost/Artchive/Question4Data.php",
     method: "GET",
     success: function(data) {
       console.log(data);
@@ -8,7 +8,7 @@ $.ajax({
       var count = [];
 
       for (var i in data) {
-        year.push([data[i].OBJECTENDDATE, data[i].MEDIUM]);
+        year.push([data[i].ARTISTBEGINDATE, data[i].ARTISTNATIONALITY]);
         count.push(data[i].COUNT);
       }
 
@@ -16,7 +16,7 @@ $.ajax({
         labels: year,
         datasets : [
           {
-            label: "Count",
+            label: "Number of artists born per year",
             backgroundColor: "rgba(255, 0, 0, 0.75)",
             borderColor: "rgba(200, 200, 200, 0.75)",
             hoverBackgroundColor: "rgba(200, 200, 200, 1)",
@@ -26,11 +26,11 @@ $.ajax({
         ]
       };
 
-      var ctx = $('#mycanvas');
+      var ctx = $('#mycanvas2');
       var barGraph = new Chart(ctx, {type: 'bar', data: chartdata,
       options: {
       plugins: {
-        title: {display: true, text: 'Most popular medium by year'}
+        title: {display: true, text: 'Longest time to complete'}
       }
    }});
     },

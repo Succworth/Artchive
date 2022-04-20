@@ -16,6 +16,10 @@
     <a href="Question5SecondOldest-220314-142234.html">
       <input type=button value="2nd Oldest">
     </a>
+    <hr>
+    <a href="Question5Interactive.php">
+      <input type=button value="Interative Graph">
+    </a>
     <br>
     <br>
     <a href = "HomePage.php">

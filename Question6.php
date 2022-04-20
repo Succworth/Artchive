@@ -50,6 +50,10 @@
     <a href="Question6CountryAveragePart7-220314-133958.html">
       <input type=button value="1973 - Present">
     </a>
+    <hr>
+    <a href="Question6Interactive.php">
+      <input type=button value="Interative Graph">
+    </a>
     <br>
     <br>
     <a href = "HomePage.php">

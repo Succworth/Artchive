@@ -33,6 +33,10 @@
     <a href="Question2Part5-220313-221010.html">
     <input type = button value = "1936 - Present">
     </a>
+    <hr>
+    <a href="Question2Interactive.php">
+      <input type=button value="Interative Graph">
+    </a>
     <br>
     <br>
     <a href = "HomePage.php">

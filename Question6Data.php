@@ -21,5 +21,4 @@ while($row1 = oci_fetch_array($parse)) {
   $data[]=$row1;
 }
 print json_encode($data);
-oci_free_statement($parse);
  ?>

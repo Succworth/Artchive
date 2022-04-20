@@ -45,9 +45,12 @@
     <a href="Question4CountryPart5-220314-163818.html">
       <input type=button value="1960 - Present">
     </a>
+    <hr>
+    <a href="Question4Interactive.php">
+      <input type=button value="Interative Graph">
+    </a>
     <br>
     <br>
-
     <a href = "HomePage.php">
       <input type = button value = Home>
     </a>
