@@ -2,9 +2,8 @@
 session_start();
 header('Content-Type: application/json');
 $c = oci_connect('c.giordano', 'zGneVdKkuq9zIZQJAWxQw1SB', 'oracle.cise.ufl.edu/orcl');
-$yearBegin = $_SESSION['yearBegin3'];
-$yearEnd = $_SESSION['yearEnd3'];
-$country = $_SESSION['country3'];
+$yearBegin = $_SESSION['yearBegin2'];
+$yearEnd = $_SESSION['yearEnd2'];
 $graph = sprintf("SELECT artistBeginDate, artistNationality, count(*) as count
                   FROM Artists
                   WHERE artistBeginDate > $yearBegin AND artistBeginDate < $yearEnd

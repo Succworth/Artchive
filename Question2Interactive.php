@@ -42,15 +42,10 @@
   function filterEnd($key) {
     return isset($_GET[$key]) ? $_GET[$key] : 2022;
   }
-  function filterCountry($key) {
-    return isset($_GET[$key]) ? $_GET[$key] : ' ';
-  }
   $yearBegin = filterBegin("yearBegin2");
   $yearEnd = filterEnd("yearEnd2");
-  $country = filterCountry("country2");
   $_SESSION['yearBegin2'] = $yearBegin;
   $_SESSION['yearEnd2'] = $yearEnd;
-  $_SESSION['country2'] = $country;
   ?>
 </body>
 </html>

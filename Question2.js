@@ -16,7 +16,7 @@ $.ajax({
         labels: year,
         datasets : [
           {
-            label: "Number of artists born per year",
+            label: "Number of artists born",
             backgroundColor: "rgba(255, 0, 0, 0.75)",
             borderColor: "rgba(200, 200, 200, 0.75)",
             hoverBackgroundColor: "rgba(200, 200, 200, 1)",
