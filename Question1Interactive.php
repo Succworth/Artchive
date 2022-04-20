@@ -29,7 +29,7 @@
   <br>
   <br>
   <a href="Question1.php">
-    <input type=button value="Back">
+      <button class ="btn btnQ1">Back</button>
   </a>
 
   <?php

@@ -2,7 +2,9 @@
 <html lang="en" dir="ltr">
 <head>
   <title>Question 6 Interative</title>
-  <style type="text/css">
+    <link rel ="stylesheet" href="/Question1Part1-220313-221139/report.css">
+
+    <style type="text/css">
     #chart-container2 {
       width: 2048px;
       height: auto;

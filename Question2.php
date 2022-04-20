@@ -3,6 +3,8 @@
   <head>
     <meta charset="utf-8">
     <title>Artchive</title>
+    <link rel ="stylesheet" href="/Question1Part1-220313-221139/report.css">
+
   </head>
   <center>
   <body>
@@ -11,36 +13,40 @@
     <h2>Preset Timespans</h2>
     <br>
     <a href="Question2Part1-220313-221155.html">
-    <input type = button value = "Earliest Recorded - 1611">
+        <button class ="btn btnQ1">Earliest Recorded - 1611</button>
+
+
     </a>
     <br>
     <br>
     <a href="Question2Part2-220313-221202.html">
-    <input type = button value = "1611 - 1762">
+        <button class ="btn btnQ1">1611 - 1762</button>
     </a>
     <br>
     <br>
     <a href="Question2Part3-220313-221223.html">
-    <input type = button value = "1762 - 1863">
+        <button class ="btn btnQ1">1762 - 1863</button>
     </a>
     <br>
     <br>
     <a href="Question2Part4-220313-221232.html">
-    <input type = button value = "1863 - 1936">
+        <button class ="btn btnQ1">1863 - 1936</button>
+
     </a>
     <br>
     <br>
     <a href="Question2Part5-220313-221010.html">
-    <input type = button value = "1936 - Present">
+        <button class ="btn btnQ1">1936 - Present</button>
+
     </a>
     <hr>
     <a href="Question2Interactive.php">
-      <input type=button value="Interactive Graph">
+        <button class ="btn btnQ1">Interactive Graph</button>
     </a>
     <br>
     <br>
     <a href = "HomePage.php">
-      <input type = button value = Home>
+        <button class ="btn btnQ1">Home</button>
     </a>
   </body>
   </center>

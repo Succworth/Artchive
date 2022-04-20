@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
-  <title>Question 3 Interative</title>
+    <link rel ="stylesheet" href="/Question1Part1-220313-221139/report.css">
+
+    <title>Question 3 Interative</title>
   <style type="text/css">
     #chart-container2 {
       width: 2048px;
@@ -28,7 +30,7 @@
   <br>
   <br>
   <a href="Question3.php">
-    <input type=button value="Back">
+      <button class ="btn btnQ1">Back</button>
   </a>
 
   <?php

@@ -8,6 +8,8 @@
       height: auto;
     }
   </style>
+    <link rel ="stylesheet" href="/Question1Part1-220313-221139/report.css">
+
 <body>
   <div id="chart-container2">
     <canvas id="mycanvas2"></canvas>
@@ -28,7 +30,8 @@
   <br>
   <br>
   <a href="Question2.php">
-    <input type=button value="Back">
+      <button class ="btn btnQ1">Back</button>
+
   </a>
 
   <?php

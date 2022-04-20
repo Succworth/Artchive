@@ -3,6 +3,8 @@
   <head>
     <meta charset="utf-8">
     <title>Artchive</title>
+      <link rel ="stylesheet" href="/Question1Part1-220313-221139/report.css">
+
   </head>
   <center>
   <body>
@@ -11,21 +13,22 @@
     <h2>Preset Timespans</h2>
     <br>
     <a href="Question1Part1-220313-221139.html">
-    <input type = button value = "Earliest Recorded - 933">
+        <button class ="btn btnQ1">Eariest Recorded - 933</button>
     </a>
     <br>
     <br>
     <a href="Question1Part2-220313-221150.html">
-    <input type = button value = "933 - Present">
+        <button class ="btn btnQ1">933 - Present</button>
     </a>
     <hr>
     <a href="Question1Interactive.php">
-      <input type = button value = "Interactive Graph"
+        <button class ="btn btnQ1">Interactive Graph</button>
+
     </a>
     <br>
     <br>
     <a href="HomePage.php">
-    <input type = button value = Home>
+        <button class ="btn btnQ1">Home</button>
     </a>
   </body>
   </center>
