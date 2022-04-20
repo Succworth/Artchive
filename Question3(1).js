@@ -1,6 +1,6 @@
 $(document).ready(function(){
 $.ajax({
-    url: "http://localhost/Artchive/Question3Data.php",
+    url: "http://localhost/Artchive/Question3Data(1).php",
     method: "GET",
     success: function(data) {
       console.log(data);
@@ -8,7 +8,7 @@ $.ajax({
       var count = [];
 
       for (var i in data) {
-        year.push([data[i].ARTISTBEGINDATE, data[i].ARTISTDISPLAYNAME]);
+        year.push(data[i].ARTISTBEGINDATE);
         count.push(data[i].COUNT);
       }
 
@@ -30,7 +30,7 @@ $.ajax({
       var barGraph = new Chart(ctx, {type: 'bar', data: chartdata,
       options: {
       plugins: {
-        title: {display: true, text: 'Who created the most pieces?'}
+        title: {display: true, text: 'Most pieces made'}
       }
    }});
     },

@@ -8,15 +8,15 @@ $.ajax({
       var count = [];
 
       for (var i in data) {
-        year.push([data[i].ARTISTBEGINDATE, data[i].ARTISTNATIONALITY]);
-        count.push(data[i].COUNT);
+        year.push([data[i].OBJECTENDDATE, data[i].ARTISTNATIONALITY]);
+        count.push(data[i].AGE);
       }
 
       var chartdata = {
         labels: year,
         datasets : [
           {
-            label: "Number of artists born per year",
+            label: "Average Age of Artists",
             backgroundColor: "rgba(255, 0, 0, 0.75)",
             borderColor: "rgba(200, 200, 200, 0.75)",
             hoverBackgroundColor: "rgba(200, 200, 200, 1)",
@@ -30,7 +30,7 @@ $.ajax({
       var barGraph = new Chart(ctx, {type: 'bar', data: chartdata,
       options: {
       plugins: {
-        title: {display: true, text: 'Artists Born per Year'}
+        title: {display: true, text: 'Average Age'}
       }
    }});
     },

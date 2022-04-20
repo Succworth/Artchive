@@ -18,11 +18,11 @@
 
   <form action="Question5Interactive.php" method="get">
     Starting From:
-    <input type="number" name="yearBegin2">
+    <input type="number" name="yearBegin5">
     <input type=submit>
     <br>
     Ending At:
-    <input type="number" name="yearEnd2">
+    <input type="number" name="yearEnd5">
   </form>
   <hr>
   <br>
@@ -42,15 +42,10 @@
   function filterEnd($key) {
     return isset($_GET[$key]) ? $_GET[$key] : 2022;
   }
-  function filterCountry($key) {
-    return isset($_GET[$key]) ? $_GET[$key] : ' ';
-  }
-  $yearBegin = filterBegin("yearBegin2");
-  $yearEnd = filterEnd("yearEnd2");
-  $country = filterCountry("country2");
-  $_SESSION['yearBegin2'] = $yearBegin;
-  $_SESSION['yearEnd2'] = $yearEnd;
-  $_SESSION['country2'] = $country;
+  $yearBegin = filterBegin("yearBegin5");
+  $yearEnd = filterEnd("yearEnd5");
+  $_SESSION['yearBegin5'] = $yearBegin;
+  $_SESSION['yearEnd5'] = $yearEnd;
   ?>
 </body>
 </html>

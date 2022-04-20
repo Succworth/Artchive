@@ -14,7 +14,7 @@
         <input type=button value="Earliest Recorded - Present">
     </a>
     <hr>
-    <a href="Question3Interactive.php">
+    <a href="Question3Interactive(1).php">
       <input type=button value="Interative Graph">
     </a>
     <br>

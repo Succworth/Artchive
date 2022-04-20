@@ -8,15 +8,15 @@ $.ajax({
       var count = [];
 
       for (var i in data) {
-        year.push([data[i].ARTISTBEGINDATE, data[i].ARTISTNATIONALITY]);
-        count.push(data[i].COUNT);
+        year.push([data[i].OBJECTENDDATE, data[i].ARTISTNATIONALITY);
+        count.push(data[i].LENGTH);
       }
 
       var chartdata = {
         labels: year,
         datasets : [
           {
-            label: "Number of artists born per year",
+            label: "Time taken",
             backgroundColor: "rgba(255, 0, 0, 0.75)",
             borderColor: "rgba(200, 200, 200, 0.75)",
             hoverBackgroundColor: "rgba(200, 200, 200, 1)",

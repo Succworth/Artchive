@@ -14,9 +14,9 @@
   </div>
   <script type="text/javascript" src="jquery.min.js"></script>
   <script type="text/javascript" src="chart.min.js"></script>
-  <script type="text/javascript" src="Question3.js"></script>
+  <script type="text/javascript" src="Question3(1).js"></script>
 
-  <form action="Question3Interactive.php" method="get">
+  <form action="Question3Interactive(1).php" method="get">
     Starting From:
     <input type="number" name="yearBegin3">
     <input type=submit>
